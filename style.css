@@ -17,12 +17,56 @@ body {
     justify-content: center;
 }
 
+.footer{
+    background-image: url(/img/cartao-de-visita.jpg);
+    height: 160px;
+    width: 350px;
+    border: 1px solid lightgray;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer p{
+    color: rgb(0, 0, 0);
+    align-self: center;
+    justify-content: space-between;
+}
+
+.footer a{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.btn1{
+    background-color: #0095f6;
+    color:white;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 30px;
+    width: 200px;
+    display: block;
+    text-decoration: none;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+
+}
+
+
 .instagram-wrapper {
     display: flex;
     align-items: center;
     justify-content: start;
     width: 60%;
     height: 100vh;
+    background-image: url(/img/fundo-gradiente.jpg);
 }
 
 .instagram-phone {
@@ -43,6 +87,7 @@ body {
     flex-direction: column;
     width: 50%;
     min-height: 34rem;
+    
 }
 
 .group {
@@ -51,9 +96,10 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: #ffffff;
-    width: 100%;
+    width: 90%;
     padding: 1.3rem 0;
     border: 1px solid lightgray;
+    border-radius: 5rem;
 }
 
 .group:nth-child(1) {
